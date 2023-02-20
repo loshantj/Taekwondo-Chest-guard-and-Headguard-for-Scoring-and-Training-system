@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-color: #cccccc;
+   }
+
+.container{
+    margin:33px auto;
+    background-color: rgba(0, 0, 0, 0.45);
+    border: 7px solid rgb(99, 101, 101);
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    width: 1000px;
+    height: 470px;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    margin:20px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+.round{
+    margin:20px;
+    padding: 30px;
+}
+.guest , .home{
+    margin: 0px 50px;
+}
+#home--btn{
+    width: 155px;
+    height: 120px;
+    margin: 15px;
+    background-color: rgb(219, 13, 13);
+    color: rgb(253, 253, 253);
+    font-size: 90px;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 7px;
+}
+#guest--btn{
+    width: 155px;
+    height: 120px;
+    margin: 15px;
+    background-color: rgb(10, 52, 236);
+    color: rgb(253, 253, 253);
+    font-size: 90px;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 7px;
+}
+.operate{
+    width: 178px;
+    height: 55px;
+    margin-right: 0px;
+    padding-left: 7px;
+    /* border: 1px solid white; */
+}
+.operate > button{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    background-color: transparent;
+    border: 2px solid rgb(219, 219, 219);
+    font-size: 18px;
+    color: rgb(219, 219, 219);
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+
+    
+}
+.operate > button:active{
+    background-color: rgba(255, 255, 255, 0.275);
+}
+
+
+.container-two{
+    margin:33px auto;
+    background-color: rgb(161, 208, 255);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 140px;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    border: 3px solid rgb(60, 60, 60);
+    padding: 20px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+.save--btn{
+    margin-top: 10px;
+    width: 150px;
+    padding: 10px 7px;
+    border-radius: 3px;
+    position: sticky;
+    top: 0;
+   
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(4, 16, 109);
+    border: none;
+}
+.save--btn:active{
+    background-color: rgb(70, 80, 200);
+}
+.container-two >p{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+#home--count{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#guest--count{
+    margin-bottom: 20px;
+}
